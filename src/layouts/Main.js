@@ -33,8 +33,8 @@ export default function Main() {
         <Stack direction="column" gap="10px">
             <h3>Search your address in Brazil</h3>
             <Stack direction="row" divider={<Divider orientation="vertical" flexItem />} spacing={1}>
-                <CepTextField  value={cep} onChange={handleChange} />
-                <SearchButton onClick={() => {handleClick()}}/>
+                <CepTextField  value={cep} onChange={handleChange} error={cep.length !==8 } />
+                <SearchButton  onClick={() => {handleClick()}} disabled={cep.length !== 8 }/>
             </Stack>
             { address !== '' ? <CepCard address={address} /> : null }
         </Stack>

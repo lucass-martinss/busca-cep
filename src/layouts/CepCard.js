@@ -3,14 +3,13 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { CardActionArea } from '@mui/material';
 
 export default function CepCard(props) {
     const { address } = props;
 
   return (
     <Card sx={{ maxWidth: 357}}>
-      <CardActionArea>
+      
         <CardMedia
           component="img"
           height="140"
@@ -28,13 +27,12 @@ export default function CepCard(props) {
            <br/>
            <strong>Cep:</strong>   {address.cep}
            <br/>
-           <strong>Complemento</strong>{address.complemento}
+           <strong>Complemento: </strong>{address.complemento}
            
            
 
           </Typography>
         </CardContent>
-      </CardActionArea>
     </Card>
   );
 }
