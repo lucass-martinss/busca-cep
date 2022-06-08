@@ -1,6 +1,4 @@
-- ES6 Modules
-- Promises
-- - Async/Await
+![](./images/busca-cep.png)
 
 # Getting Started with Create React App
 
