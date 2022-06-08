@@ -4,9 +4,8 @@ import { Divider, Stack, Container, Paper } from "@mui/material";
 import { useState } from "react";
 import CepCard from "./CepCard";
 
-
 export default function Main() {
-  const [cep, setCep] = useState('');
+  const [cep, setCep] = useState("");
   const [addressList, setAddressList] = useState([]);
 
   const handleChange = (event) => {
@@ -36,27 +35,41 @@ export default function Main() {
       <Paper elevation={3}>
         <Stack direction="column" gap="10px" sx={{ alignItems: "center" }}>
           <h3>Search your address in Brazil</h3>
-          <Stack
-            direction="row"
-            divider={
-              <Divider
-                orientation="vertical"
-                sx={{ height: "41px" }}
-                flexItem
-              />
-            }
-            spacing={1}
+          <form
+            id="my-form-id"
+            onSubmit={(e) => {
+              e.preventDefault();
+              handleClick();
+              setCep("");
+            }}
           >
-            <CepTextField
-              helperText="Digite o CEP com 8 caracteres."
-              value={cep}
-              onChange={handleChange} 
-              error={cep.length !== 8 && cep.length !== 0 }
+            <Stack
+              direction="row"
+              divider={
+                <Divider
+                  orientation="vertical"
+                  sx={{ height: "41px" }}
+                  flexItem
+                />
+              }
+              spacing={1}
+            >
+              <CepTextField
+                helperText="Digite o CEP com 8 caracteres."
+                value={cep}
+                onChange={handleChange}
+                error={cep.length !== 8 && cep.length !== 0}
+              />
+              <SearchButton type="submit" disabled={cep.length !== 8} />
+            </Stack>
+          </form>
+          {Array.from(addressList.entries()).map(([index, address]) => (
+            <CepCard
+              key={index}
+              index={index}
+              address={address}
+              deleteHandler={() => handleDelete(index)}
             />
-            <SearchButton onClick={handleClick} disabled={cep.length !== 8} />
-          </Stack>
-         {Array.from(addressList.entries()).map(([index, address]) => (
-            <CepCard key={index} index={index} address={address} deleteHandler={() => handleDelete(index)} /> 
           ))}
         </Stack>
       </Paper>
