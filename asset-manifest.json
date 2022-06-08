@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9e5ad7e7.css",
+    "main.js": "/static/js/main.c50560b1.js",
+    "static/js/787.87eecf2d.chunk.js": "/static/js/787.87eecf2d.chunk.js",
+    "static/media/nuosu-sil-all-400-normal.woff": "/static/media/nuosu-sil-all-400-normal.ae6be90df2ae8da067ea.woff",
+    "static/media/nuosu-sil-yi-400-normal.woff2": "/static/media/nuosu-sil-yi-400-normal.be43dc409e865fd27496.woff2",
+    "static/media/nuosu-sil-latin-400-normal.woff2": "/static/media/nuosu-sil-latin-400-normal.6f88a63d34d15be50ff1.woff2",
+    "static/media/nuosu-sil-latin-ext-400-normal.woff2": "/static/media/nuosu-sil-latin-ext-400-normal.9a2e2b99b75237949552.woff2",
+    "index.html": "/index.html",
+    "main.9e5ad7e7.css.map": "/static/css/main.9e5ad7e7.css.map",
+    "main.c50560b1.js.map": "/static/js/main.c50560b1.js.map",
+    "787.87eecf2d.chunk.js.map": "/static/js/787.87eecf2d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e5ad7e7.css",
+    "static/js/main.c50560b1.js"
+  ]
+}
