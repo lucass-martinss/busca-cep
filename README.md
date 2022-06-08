@@ -1,12 +1,15 @@
 # Project Busca Cep
 ![](./images/busca-cep.png)
 
+# PracticeIt
+my first publication of a project to search through a zip code to provide details of the desired address.
+
 ## Showcased Skills
 ### Some of the skills showcased in this project are:
 
 * JavaScript-[React](https://github.com/facebook/create-react-app)
 
-* [Material UI](https://github.com/mui/material-ui).
+* [Material UI](https://github.com/mui/material-ui)
 
 * Hooks
 
