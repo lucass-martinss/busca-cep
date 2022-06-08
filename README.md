@@ -11,7 +11,7 @@ my first publication of a project to search through a zip code to provide detail
 
 * [Material UI](https://github.com/mui/material-ui)
 
-*[Via CEP API](https://viacep.com.br/)
+* [Via CEP API](https://viacep.com.br/)
 
 * [Street View API](https://developers.google.com/maps/documentation/streetview)
 
