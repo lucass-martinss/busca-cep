@@ -50,7 +50,8 @@ export default function Main() {
             <CepTextField
               helperText="Digite o CEP com 8 caracteres."
               value={cep}
-              onChange={handleChange}
+              onChange={handleChange} 
+              error={cep.length !== 8 && cep.length !== 0 }
             />
             <SearchButton onClick={handleClick} disabled={cep.length !== 8} />
           </Stack>
