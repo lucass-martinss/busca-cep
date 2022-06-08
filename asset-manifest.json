@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/busca-cep/static/css/main.ca9ae36c.css",
-    "main.js": "/busca-cep/static/js/main.f0c76688.js",
+    "main.js": "/busca-cep/static/js/main.cca81234.js",
     "static/js/787.87eecf2d.chunk.js": "/busca-cep/static/js/787.87eecf2d.chunk.js",
     "static/media/nuosu-sil-all-400-normal.woff": "/busca-cep/static/media/nuosu-sil-all-400-normal.ae6be90df2ae8da067ea.woff",
     "static/media/nuosu-sil-yi-400-normal.woff2": "/busca-cep/static/media/nuosu-sil-yi-400-normal.be43dc409e865fd27496.woff2",
@@ -9,11 +9,11 @@
     "static/media/nuosu-sil-latin-ext-400-normal.woff2": "/busca-cep/static/media/nuosu-sil-latin-ext-400-normal.9a2e2b99b75237949552.woff2",
     "index.html": "/busca-cep/index.html",
     "main.ca9ae36c.css.map": "/busca-cep/static/css/main.ca9ae36c.css.map",
-    "main.f0c76688.js.map": "/busca-cep/static/js/main.f0c76688.js.map",
+    "main.cca81234.js.map": "/busca-cep/static/js/main.cca81234.js.map",
     "787.87eecf2d.chunk.js.map": "/busca-cep/static/js/787.87eecf2d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ca9ae36c.css",
-    "static/js/main.f0c76688.js"
+    "static/js/main.cca81234.js"
   ]
 }
