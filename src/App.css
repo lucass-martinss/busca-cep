@@ -1,0 +1,12 @@
+.header {
+    font-family: "Nuosu SIL";
+  }
+  hr{
+    border:dashed;
+    border-width: 2px;
+    border-bottom: transparent;
+    border-color: rgba(0, 0, 0, 0.274);
+    
+  }
+  
+  

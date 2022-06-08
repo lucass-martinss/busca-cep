@@ -1,13 +1,13 @@
-import './App.css';
-import Main from './layouts/Main'
+import "./App.css";
+import Main from "./layouts/Main";
+import Header from "./layouts/Header";
 
- export default function App() {
+
+export default function App() {
   return (
     <div className="App">
-       <Main /> 
-    
-      </div>
+      <Header/>
+      <Main />
+    </div>
   );
 }
-
-
