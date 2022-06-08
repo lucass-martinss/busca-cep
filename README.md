@@ -1,4 +1,4 @@
-# Project Busca Cep ![Website](https://img.shields.io/website?url=https%3A%2F%2Flucass-martinss.github.io%2Fbusca-cep%2F)
+# Project Busca Cep [![Website](https://img.shields.io/website?url=https%3A%2F%2Flucass-martinss.github.io%2Fbusca-cep%2F)](https://lucass-martinss.github.io/busca-cep/)
 ![](./images/busca-cep.png)
 
 # PracticeIt
