@@ -8,7 +8,6 @@ import CepCard from "./CepCard";
 export default function Main() {
   const [cep, setCep] = useState('');
   const [addressList, setAddressList] = useState([]);
-  
 
   const handleChange = (event) => {
     setCep(event.target.value);
@@ -25,7 +24,7 @@ export default function Main() {
     setAddressList(newAddressList);
     console.log(json);
   };
-    
+
   const handleDelete = (index) => {
     const newAddressList = [...addressList];
     newAddressList.splice(index, 1);
