@@ -1,8 +1,9 @@
 ![](./images/busca-cep.png)
 
-# Getting Started with Create React App
+# Project Busca Cep
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was developed to search for the desired 'C.E.P' address.
+Was developed in [Create React App](https://github.com/facebook/create-react-app) with a  component library [Material UI](https://github.com/mui/material-ui).
 
 ## Available Scripts
 
